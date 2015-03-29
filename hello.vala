@@ -7,7 +7,7 @@ unowned Seed.Value hello(
   Seed.Exception? exception
 ) {
   stdout.printf("Hello, from js!\n");
-  return Seed.make_null(ctx);
+  return Seed.make_undefined(ctx);
 }
 
 class HelloApp : Gtk.Application {  
